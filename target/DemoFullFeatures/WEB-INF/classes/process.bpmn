@@ -33,7 +33,7 @@
       <bpmn:outgoing>SequenceFlow_0am1e09</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_02rtce8</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:serviceTask id="Task_18tl71x" name="departmentRoute" camunda:class="com.globalcapital.project.DetermineDepartmentRoute">
+    <bpmn:serviceTask id="Task_18tl71x" name="department Route" camunda:class="com.globalcapital.project.DetermineDepartmentRoute">
       <bpmn:incoming>SequenceFlow_1oswzi7</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1mzwi0d</bpmn:outgoing>
     </bpmn:serviceTask>
@@ -279,7 +279,7 @@
         <di:waypoint x="985" y="68" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ExclusiveGateway_107rgdj_di" bpmnElement="ExclusiveGateway_107rgdj" isMarkerVisible="true">
-        <dc:Bounds x="948" y="180" width="50" height="50" />
+        <dc:Bounds x="976" y="180" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="EndEvent_037gsjs_di" bpmnElement="EndEvent_037gsjs">
         <dc:Bounds x="1152" y="129" width="36" height="36" />
@@ -288,23 +288,23 @@
         <dc:Bounds x="1144" y="165" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_036er2y_di" bpmnElement="SequenceFlow_036er2y">
-        <di:waypoint x="998" y="205" />
+        <di:waypoint x="1026" y="205" />
         <di:waypoint x="1144" y="205" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="1000" y="187" width="47" height="14" />
+          <dc:Bounds x="1023" y="187" width="47" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_02eb51m_di" bpmnElement="SequenceFlow_02eb51m">
-        <di:waypoint x="973" y="180" />
-        <di:waypoint x="973" y="149" />
+        <di:waypoint x="1001" y="180" />
+        <di:waypoint x="1001" y="149" />
         <di:waypoint x="1152" y="147" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="983" y="168.5" width="65" height="14" />
+          <dc:Bounds x="1004" y="168.5" width="65" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1o9wz8q_di" bpmnElement="SequenceFlow_1o9wz8q">
         <di:waypoint x="885" y="205" />
-        <di:waypoint x="948" y="205" />
+        <di:waypoint x="976" y="205" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="EndEvent_0de9ytn_di" bpmnElement="EndEvent_0de9ytn">
         <dc:Bounds x="1390" y="187" width="36" height="36" />
