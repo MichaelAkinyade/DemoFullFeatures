@@ -17,6 +17,8 @@ public class DetermineDepartmentRoute implements JavaDelegate {
 		if (department.contains("IT")) {
 
 			execution.setVariable("IT", true);
+			
+			System.out.print("Test");
 
 		} else if (department.contains("sales")) {
 			execution.setVariable("Sales", true);
