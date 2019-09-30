@@ -1,0 +1,6 @@
+com\globalcapital\project\SendEmailToApplicant.class
+com\globalcapital\project\CamundaBpmProcessApplication.class
+com\globalcapital\project\LoggerDelegate.class
+com\globalcapital\project\SendEmail$1.class
+com\globalcapital\project\DetermineDepartmentRoute.class
+com\globalcapital\project\SendEmail.class

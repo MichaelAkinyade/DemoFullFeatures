@@ -1,0 +1,36 @@
+
+<h2> Globalcapital Employement Form</h2>
+<form role="form" name="form">
+  <div class="form-group">
+  <h3><i> please fill the following information and upload the resume.</i></h3>
+    <label for="customerId-field">First Name</label>
+    <input required
+           cam-variable-name="firstName"
+           cam-variable-type="String"
+                ng-pattern="/^[a-zA-Z. ]*[a-zA-Z]{1,60}$/"
+           class="form-control" />
+  </div>
+  <div class="form-group">
+    <label for="customerId-field">Last Name</label>
+    <input cam-variable-name="lastName"
+           cam-variable-type="String"
+            ng-pattern="/^[a-zA-Z. ]*[a-zA-Z]{1,60}$/"
+           class="form-control" />
+          
+  </div>
+  
+   <div class="form-group">
+    <label for="customerId-field">Department</label>
+    <input cam-variable-name="department"
+           cam-variable-type="String"
+            ng-pattern="/^[a-zA-Z. ]*[a-zA-Z]{1,60}$/"
+           class="form-control" />
+  </div>
+  
+  
+  <input type="file"
+       cam-variable-name="INVOICE_DOCUMENT"
+       cam-variable-type="File"
+       cam-max-filesize="10000000" />
+  
+</form>
